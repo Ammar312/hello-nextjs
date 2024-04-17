@@ -7,7 +7,7 @@ import courseData from "@/data/music_courses.json";
 
 const page = () => {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
+    <div className="min-h-screen bg-black py-12 pt-36 antialiased">
       <h1 className="text-center text-4xl md:text-6xl text-white font-bold mb-7">
         All Courses ({courseData.courses.length})
       </h1>
@@ -30,7 +30,7 @@ const page = () => {
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={course.image}
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
