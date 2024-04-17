@@ -9,7 +9,9 @@ const page = () => {
   return (
     <div className="min-h-screen dark:bg-gray-900 py-12 pt-28 antialiased">
       <div className="relative z-20 max-w-2xl mx-auto">
-        <h1 className="text-center font-bold text-6xl mb-5 ">Contact Us</h1>
+        <h1 className="text-center font-bold text-6xl mb-5 text-white ">
+          Contact Us
+        </h1>
         <p className="text-center text-base text-neutral-500 my-3 ">
           {" "}
           We&apos;re here to help with any questions about our courses,

@@ -39,7 +39,10 @@ const FeaturedCourses = () => {
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link href={`/courses/${course.slug}`} className="mt-4">
+                  <Link
+                    href={`/courses/${course.slug}`}
+                    className="mt-4 text-white"
+                  >
                     Learn More
                   </Link>
                 </div>
